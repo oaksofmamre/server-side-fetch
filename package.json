@@ -1,0 +1,17 @@
+{
+	"name": "server-side-fetch",
+	"version": "1.0.0",
+	"private": true,
+	"proxy": "http://localhost:3001/",
+	"main": "server.js",
+	"description": "Maintaining secrets by sending fetch to external API from sever-side, not client",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"dotenv": "^4.0.0",
+		"es6-promise": "^4.2.2",
+		"express": "^4.16.2",
+		"isomorphic-fetch": "^2.2.1"
+	}
+}
