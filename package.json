@@ -2,9 +2,9 @@
 	"name": "server-side-fetch",
 	"version": "1.0.0",
 	"private": true,
-	"proxy": "http://localhost:3001/",
 	"main": "server.js",
-	"description": "Maintaining secrets by sending fetch to external API from sever-side, not client",
+	"description":
+		"Maintaining secrets by sending fetch to external API from sever-side, not client",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
